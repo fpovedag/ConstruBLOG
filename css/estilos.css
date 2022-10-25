@@ -25,6 +25,25 @@ body
     font-size: 0.8em;
 }
 
+#pata
+{
+    background rgb(10,9,2);
+    box-shadow: 3px 3px 3px 3px rgba(10,9,12,0.2);
+    color: rgb(144,0,32);
+    font-weight: bold;
+    margin: 2;
+    padding: 0.2em;
+    text-align:center;
+    font-size: 14px;
+}
+
+#pata #complemento
+{
+    padding: 0 0 0 0;
+    font-weight:normal;
+    font-size: 12px;
+}
+
 #container
 {
     width: 70%;
