@@ -1,8 +1,9 @@
 body
 {
-    color: #002FA7;
+    background: rgb(206,192,117);
+    color: rgb(10,9,12);
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Century gothic";
     font-size: 16px;
     margin: 0;
     padding: 0;
@@ -10,12 +11,19 @@ body
 
 #cabecera
 {
-    background: #002FA7;
+    background: rgb(206,192,117) url("../imagenes/Logo.png") no-repeat center center;
     box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
-    color: white;
+    color: rgb(10,9,12);
     font-weight: bold;
+    font-size: 20px;
     margin: 0;
-    padding: 0.5em;
+    padding: 0.5em 0 0.5em 2em;
+}
+
+#cabecera #logo
+{
+    width: 30px;
+    vertical-align: middle;
 }
 
 #cabecera #tagline
@@ -49,11 +57,18 @@ body
     width: 70%;
     padding: 1em;
     text-align: justify;
-    border: 3px solid rgb(0,148,198);
+    border: 3px solid rgb(206,192,117);
+    background: rgb(192,202,173);
     margin: 0 auto;
 }
 
 #container h1
 {
     font-size: 20px;
+}
+
+#post
+{
+    background rgb(10,9,2);
+    padding: 1em;
 }
