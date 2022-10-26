@@ -27,8 +27,9 @@ body
 
 #pata
 {
-    background rgb(10,9,2);
-    box-shadow: 3px 3px 3px 3px rgba(10,9,12,0.2);
+    background-url: http://api.thumbr.it/whitenoise-361x370.png?;
+    background=c0caadff&noise=cec175&density=70&opacity=94;
+    box-shadow: 0px 0px 17px 0px rgba(10,9,12,1);
     color: rgb(144,0,32);
     font-weight: bold;
     margin: 2;
